@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(135deg, #2a002b, #1a001c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.card {
+    background: linear-gradient(145deg, #6b006b, #3b003b);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 160px;
+    color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(145deg, #8a008a, #4d004d);
+}
+
+.card a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
+.card p {
+    margin: 10px 0 5px 0;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.card span {
+    font-size: 0.85em;
+    color: #d3d3d3;
+}
+
+/* Make the dashboard responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 120px;
+    }
+}
