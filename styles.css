@@ -1,6 +1,8 @@
+/* Body styling */
 body {
     background: linear-gradient(135deg, #2a002b, #1a001c);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -9,6 +11,17 @@ body {
     color: #fff;
 }
 
+/* Clock styling */
+.clock {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Dashboard styling */
 .dashboard {
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +30,7 @@ body {
     max-width: 1000px;
 }
 
+/* Card styling */
 .card {
     background: linear-gradient(145deg, #6b006b, #3b003b);
     border-radius: 15px;
