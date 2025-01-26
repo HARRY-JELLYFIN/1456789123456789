@@ -1,6 +1,6 @@
 /* Body styling */
 body {
-    background: linear-gradient(135deg, #2a002b, #1a001c);
+    background: linear-gradient(135deg, #002b2b, #001c1c); /* Cyan-themed gradient */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,12 +13,12 @@ body {
 
 /* Large Clock styling */
 .clock {
-    font-size: 4em; /* Increase font size for a big clock */
+    font-size: 4em; /* Bigger clock size */
     font-weight: bold;
-    margin-bottom: 30px; /* Add space between the clock and dashboard */
-    color: #fff;
+    margin-bottom: 30px; /* Space between clock and dashboard */
+    color: #00ffff; /* Cyan color */
     text-align: center;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+    text-shadow: 0 3px 6px rgba(0, 255, 255, 0.7); /* Cyan glow */
 }
 
 /* Dashboard styling */
@@ -32,24 +32,24 @@ body {
 
 /* Card styling */
 .card {
-    background: linear-gradient(145deg, #6b006b, #3b003b);
+    background: linear-gradient(145deg, #005757, #003535); /* Dark cyan gradient */
     border-radius: 15px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 160px;
-    color: #fff;
+    color: #00ffff; /* Cyan font color */
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-    background: linear-gradient(145deg, #8a008a, #4d004d);
+    box-shadow: 0 8px 20px rgba(0, 255, 255, 0.7); /* Cyan glow on hover */
+    background: linear-gradient(145deg, #007f7f, #004f4f); /* Lighter cyan on hover */
 }
 
 .card a {
-    color: #fff;
+    color: #00ffff; /* Cyan links */
     text-decoration: none;
     display: block;
 }
@@ -58,7 +58,7 @@ body {
     width: 60px;
     height: 60px;
     margin-bottom: 15px;
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.5)); /* Cyan glow for icons */
 }
 
 .card p {
@@ -69,7 +69,7 @@ body {
 
 .card span {
     font-size: 0.85em;
-    color: #d3d3d3;
+    color: #b3ffff; /* Lighter cyan for subtitles */
 }
 
 /* Responsive styles */
