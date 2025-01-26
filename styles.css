@@ -11,14 +11,14 @@ body {
     color: #fff;
 }
 
-/* Clock styling */
+/* Large Clock styling */
 .clock {
-    font-size: 2em;
+    font-size: 4em; /* Increase font size for a big clock */
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Add space between the clock and dashboard */
     color: #fff;
     text-align: center;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
 }
 
 /* Dashboard styling */
@@ -72,7 +72,7 @@ body {
     color: #d3d3d3;
 }
 
-/* Make the dashboard responsive */
+/* Responsive styles */
 @media (max-width: 768px) {
     .card {
         width: 140px;
